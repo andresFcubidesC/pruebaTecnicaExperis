@@ -1,0 +1,12 @@
+SQLAlchemy
+databases
+psycopg2
+asyncpg
+alembic
+pytest
+pytest-asyncio
+httpx
+pytest-mock
+uvicorn
+fastapi
+python-dotenv
