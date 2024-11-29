@@ -4,7 +4,7 @@ from fastapi.params import Depends, Query
 from sqlalchemy import delete
 from sqlalchemy.orm import Session
 
-from Repositorys.schemas.booksSchema import BooksBaseModel
+from repositories.schemas.booksSchema import BooksBaseModel
 from controllers.models.booksResponse import BooksResponse, BookRequest
 from infrastructure.database import get_db
 from services.libraryService import get_all_books, get_books_by_filters, patch_book, delete_book, \

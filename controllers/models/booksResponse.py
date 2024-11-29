@@ -2,7 +2,7 @@ from typing import Union
 
 from pydantic import BaseModel
 
-from Repositorys.schemas.booksSchema import BooksBaseModel
+from repositories.schemas.booksSchema import BooksBaseModel
 
 
 class BooksResponse(BaseModel):

@@ -3,7 +3,7 @@ from typing import List, Type, Optional
 from fastapi import HTTPException
 from sqlalchemy.orm import Session
 
-from Repositorys.schemas.booksSchema import Books
+from repositories.schemas.booksSchema import Books
 
 
 def get_books_from_dataBased(db:Session):

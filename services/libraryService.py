@@ -3,9 +3,9 @@ from typing import List, Type, Optional
 from sqlalchemy import delete
 from sqlalchemy.orm import Session
 
-from Repositorys.libraryRepository import get_books_from_dataBased, creat_book_into_dataBased, get_books_db_by_filter, \
+from repositories.libraryRepository import get_books_from_dataBased, creat_book_into_dataBased, get_books_db_by_filter, \
     patch_book_by_id, delete_book_by_id
-from Repositorys.schemas.booksSchema import Books
+from repositories.schemas.booksSchema import Books
 from controllers.models.booksResponse import BookRequest
 
 

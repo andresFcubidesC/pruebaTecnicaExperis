@@ -2,7 +2,7 @@ from typing import List
 from unittest.mock import MagicMock
 
 import services.libraryService
-from Repositorys.schemas.booksSchema import Books
+from repositories.schemas.booksSchema import Books
 from controllers.models.booksResponse import BookRequest
 
 
